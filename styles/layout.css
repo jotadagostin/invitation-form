@@ -1,0 +1,35 @@
+#app {
+  display: grid;
+  grid-template-columns: 32.8% 67.21%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+aside {
+  margin: 20px;
+  padding: 20px;
+  background-image: url("/assets/images/Background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.5rem;
+}
+
+.aside-container_title {
+  img {
+    width: 45px;
+    height: 48px;
+    margin-bottom: 16px;
+  }
+}
+
+.aside-container_text {
+  h1 {
+    color: var(--pink);
+    font: var(--logo);
+  }
+  h2 {
+    font: var(--heading-sm);
+    color: var(--text-body);
+  }
+}
