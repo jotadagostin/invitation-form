@@ -34,3 +34,11 @@ aside {
     margin-top: 4px;
   }
 }
+
+.main-container {
+  h1 {
+    color: var(--text-heading);
+    font: var(--heading-md);
+    margin: 40px 130px 40px 130px;
+  }
+}

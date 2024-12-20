@@ -54,6 +54,11 @@
 }
 
 body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  overflow: hidden; /* to not show the scrolling  bar */
   background-color: var(--shape-background);
 }
 
