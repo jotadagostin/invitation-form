@@ -15,9 +15,13 @@
   --heading-sm: 700 18px / normal var(--font-family2);
 
   --font-family3: "Open Sans", serif;
-  --body-md: 600 16px / normal var(--font-family3);
-  --body-sm: 600 14px / normal var(--font-family3);
-  --body-xs: 600 12px / normal var(--font-family3);
+  --body-md-light: 300 16px / normal var(--font-family3);
+  --body-md: 400 16px / normal var(--font-family3);
+  --body-md-semibold: 600 16px / normal var(--font-family3);
+  --body-sm: 400 14px / normal var(--font-family3);
+  --body-sm-semibold: 600 14px / normal var(--font-family3);
+  --body-xs: 400 12px / normal var(--font-family3);
+  --body-xs-semibold: 600 12px / normal var(--font-family3);
 
   /* color: */
   --brand-light: #59b2ff;

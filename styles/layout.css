@@ -29,7 +29,8 @@ aside {
     font: var(--logo);
   }
   h2 {
-    font: var(--heading-sm);
+    font: var(--body-md-light);
     color: var(--text-body);
+    margin-top: 4px;
   }
 }
