@@ -1,14 +1,15 @@
 form {
   display: flex;
-  justify-content: left;
-  flex-direction: row;
-  align-items: center;
-  background-color: blue;
+  margin-left: 130px;
+  img {
+    gap: 14px;
+    width: 24px;
+    height: 24px;
+  }
 }
 
 fieldset {
   border: none;
-  gap: 14px;
   color: var(--text-heading);
   font: var(--heading-md);
 }

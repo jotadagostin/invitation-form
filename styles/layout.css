@@ -36,6 +36,7 @@ aside {
 }
 
 .main-container {
+  margin-top: 80px;
   h1 {
     color: var(--text-heading);
     font: var(--heading-md);
