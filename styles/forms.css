@@ -1,3 +1,5 @@
+@import url(fields/index.css);
+
 form {
   display: flex;
   margin-left: 130px;
@@ -6,6 +8,15 @@ form {
     width: 24px;
     height: 24px;
   }
+}
+
+legend {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 24px;
 }
 
 fieldset {
