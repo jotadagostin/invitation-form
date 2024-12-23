@@ -46,6 +46,28 @@
       <main id="form-content">
         <div class="container">
           <h1>Create your invitation</h1>
+
+          <!-- enctype="multipart/form-data" é necessário quando há um campo do tipo file -->
+          <form action="" method="post" enctype="multipart/form-data">
+            <fieldset id="about-event">
+              <legend>
+                <img
+                  src="assets/icons/calendar.png"
+                  alt="calendar white icon"
+                />About the event
+              </legend>
+
+              <div class="input-wrapper">
+                <label for="event-title">Title</label>
+                <input
+                  type="text"
+                  name="event-title"
+                  id="event-title"
+                  placeholder="name of the event"
+                />
+              </div>
+            </fieldset>
+          </form>
         </div>
       </main>
     </div>
