@@ -1,49 +1,10 @@
-#app {
+div#main-layout {
   display: grid;
-  grid-template-columns: 32.8% 67.21%;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  justify-content: center;
   height: 100vh;
-  overflow: hidden;
-}
-
-aside {
-  margin: 20px;
-  padding: 20px;
-  background-image: url("/assets/images/Background.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 0.5rem;
-}
-
-.aside-container_title {
-  img {
-    width: 45px;
-    height: 48px;
-    margin-bottom: 16px;
-  }
-}
-
-.aside-container_text {
-  h1 {
-    color: var(--pink);
-    font: var(--logo);
-  }
-  h2 {
-    font: var(--body-md-light);
-    color: var(--text-body);
-    margin-top: 4px;
-  }
-}
-
-.main-container {
-  margin-top: 80px;
-  h1 {
-    color: var(--text-heading);
-    font: var(--heading-md);
-    margin: 40px 130px 40px 130px;
-  }
-}
-
-form {
-  color: white;
+  max-width: 1200px;
+  margin-inline: auto;
+  overflow: hidden; /* to not show the scrollbar */
 }

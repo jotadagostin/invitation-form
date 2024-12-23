@@ -11,26 +11,3 @@ label {
   gap: 12px;
 }
 
-/* Text */
-
-box-sizing: border-box;
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px 16px;
-gap: 8px;
-
-width: 560px;
-height: 48px;
-
-background: #1c1f21;
-border: 1px solid #363b40;
-border-radius: 8px;
-
-/* Inside auto layout */
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
