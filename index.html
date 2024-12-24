@@ -66,6 +66,189 @@
                   placeholder="name of the event"
                 />
               </div>
+
+              <div class="flex gap-16">
+                <div class="input-wrapper flex-1">
+                  <label for="event-start">Start</label>
+                  <input
+                    type="datetime-local"
+                    id="event-start"
+                    name="event-start"
+                  />
+                </div>
+                <div class="input-wrapper flex-1">
+                  <label for="event-end">End</label>
+                  <input
+                    type="datetime-local"
+                    id="event-end"
+                    name="event-end"
+                  />
+                </div>
+              </div>
+
+              <div class="flex gap-16">
+                <div class="input-wrapper flex-1">
+                  <label for="event-type">Type</label>
+                  <div class="segmented-control radio-wrap">
+                    <div class="radio-inner">
+                      <img
+                        src="assets/icons/building-2.png"
+                        alt="building icon"
+                      />
+                      <label for="football">Presencial</label>
+                      <input
+                        type="radio"
+                        id="event-type"
+                        name="event-type"
+                        checked
+                      />
+                    </div>
+                    <div class="radio-inner">
+                      <img
+                        src="assets/icons/video.png"
+                        alt="video icon white"
+                      />
+                      <label for="football">Online</label>
+                      <input type="radio" id="event-type" name="event-type" />
+                    </div>
+                  </div>
+                </div>
+                <div class="input-wrapper flex-1">
+                  <label for="event-local">Local</label>
+                  <input
+                    type="text"
+                    id="event-l"
+                    name="event-local"
+                    placeholder="link or adress"
+                  />
+                </div>
+              </div>
+
+              <div class="textarea-wrapper">
+                <label for="event-description">Description</label>
+                <textarea
+                  name="event-description"
+                  id="event-description"
+                  rows="5"
+                  placeholder="please write the details about the event"
+                ></textarea>
+              </div>
+            </fieldset>
+
+            <fieldset id="personalization">
+              <legend>
+                <img
+                  src="assets/icons/paintbrush-vertical.png"
+                  alt="brush white icon"
+                />
+                Personalization
+              </legend>
+
+              <div id="main-color">
+                <label for="color">Main color</label>
+
+                <div class="radio-wrapper">
+                  <div class="radio-inner">
+                    <input
+                      type="radio"
+                      name="color"
+                      id="blue-radio-color"
+                      value="blue"
+                    />
+                    <div class="circle-inner blue-color"></div>
+                  </div>
+                  <div class="radio-inner">
+                    <input
+                      type="radio"
+                      name="color"
+                      id="navy-radio-color"
+                      value="navy"
+                    />
+                    <div class="circle-inner navy-color"></div>
+                  </div>
+                  <div class="radio-inner">
+                    <input
+                      type="radio"
+                      name="color"
+                      id="purple-radio-color"
+                      value="purple"
+                    />
+                    <div class="circle-inner purple-color"></div>
+                  </div>
+                  <div class="radio-inner">
+                    <input
+                      type="radio"
+                      name="color"
+                      id="fuchsia-radio-color"
+                      value="fuchsia"
+                    />
+                    <div class="circle-inner fuchsia-color"></div>
+                  </div>
+                  <div class="radio-inner">
+                    <input
+                      type="radio"
+                      name="color"
+                      id="pink-radio-color"
+                      value="pink"
+                    />
+                    <div class="circle-inner pink-color"></div>
+                  </div>
+                  <div class="radio-inner">
+                    <input
+                      type="radio"
+                      name="color"
+                      id="red-radio-color"
+                      value="red"
+                    />
+                    <div class="circle-inner red-color"></div>
+                  </div>
+                  <div class="radio-inner">
+                    <input
+                      type="radio"
+                      name="color"
+                      id="orange-radio-color"
+                      value="orange"
+                    />
+                    <div class="circle-inner orange-color"></div>
+                  </div>
+                  <div class="radio-inner">
+                    <input
+                      type="radio"
+                      name="color"
+                      id="yellow-radio-color"
+                      value="yellow"
+                    />
+                    <div class="circle-inner yellow-color"></div>
+                  </div>
+                  <div class="radio-inner">
+                    <input
+                      type="radio"
+                      name="color"
+                      id="lime-radio-color"
+                      value="lime"
+                    />
+                    <div class="circle-inner lime-color"></div>
+                  </div>
+                  <div class="radio-inner">
+                    <input
+                      type="radio"
+                      name="color"
+                      id="green-radio-color"
+                      value="green"
+                    />
+                    <div class="circle-inner green-color"></div>
+                  </div>
+                  <div class="radio-inner">
+                    <input
+                      type="radio"
+                      name="color"
+                      id="cyan-radio-color"
+                      value="cyan"
+                    />
+                    <div class="circle-inner cyan-color"></div>
+                  </div>
+                </div>
+              </div>
             </fieldset>
           </form>
         </div>
