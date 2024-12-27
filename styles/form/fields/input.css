@@ -51,7 +51,7 @@ input[type="datetime-local"] {
   margin-bottom: 16px;
 }
 
-&cover-photo {
+#cover-photo {
   .input-wrapper {
     all: unset;
     height: 48px;
@@ -67,10 +67,10 @@ input[type="datetime-local"] {
       position: relative;
       width: 119px;
       height: 40px;
-      background-color: var(--color-shape-button);
+      background-color: var(--shape-button);
       border-radius: 8px;
-      font: var(--text-body-sm-semibold);
-      color: var(--color-text-heading);
+      font: var(--body-sm-semibold);
+      color: var(--text-heading);
       padding-block: 4px;
       &:hover {
         background-color: var(--shape-hover);

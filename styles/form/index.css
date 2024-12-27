@@ -52,13 +52,14 @@ main#form-content {
     border: none;
     margin-bottom: 48px;
 
-    &:checklist {
+    &#checklist {
       margin-top: 48px;
     }
   }
 
   #others {
     display: flex;
+    margin-top: 28px;
 
     label {
       color: var(--text-body);
