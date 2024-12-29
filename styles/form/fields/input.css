@@ -72,9 +72,15 @@ input[type="datetime-local"] {
       font: var(--body-sm-semibold);
       color: var(--text-heading);
       padding-block: 4px;
+      img {
+        width: 16px;
+        height: 16px;
+      }
+
       &:hover {
         background-color: var(--shape-hover);
       }
+
       input[type="file"] {
         width: 119px;
         height: 40px;

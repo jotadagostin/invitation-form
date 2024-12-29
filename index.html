@@ -427,7 +427,7 @@
                   <label for="choose-file">Cover photo</label>
                   <div class="input-wrapper">
                     <label id="choose-file-button">
-                      <img src="assets/icons/upload.png" alt="up arrow icon" />
+                      <img src="assets/icons/upload.svg" alt="up arrow icon" />
                       Select
                       <input type="file" name="choose-file" id="choose-file" />
                     </label>
@@ -437,7 +437,54 @@
               </div>
             </fieldset>
 
-            <fieldset id="contact-details"></fieldset>
+            <fieldset id="contact-details">
+              <legend>
+                <img src="assets/icons/contact.png" alt="agenda icon" />
+                Contact information
+              </legend>
+
+              <div class="input-wrapper">
+                <label for="full-name">Name</label>
+                <input
+                  type="text"
+                  name="full-name"
+                  id="full-name"
+                  placeholder="Full name"
+                  required
+                />
+                <div class="error">
+                  <img
+                    src="assets/icons/circle-alert.svg"
+                    alt="red alert circle"
+                  />
+                  <span>field required</span>
+                </div>
+              </div>
+              <div class="flex gap-16">
+                <div class="input-wrapper flex-1">
+                  <label for="email">E-mail</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="example@email.com"
+                  />
+                </div>
+                <div class="input-wrapper flex-1">
+                  <label for="phone">Phone</label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    id="phone"
+                    placeholder="(xx) xxxx-xxx"
+                  />
+                </div>
+              </div>
+            </fieldset>
+
+            <div class="divider"></div>
+
+            <fieldset class="checklist"></fieldset>
           </form>
         </div>
       </main>
