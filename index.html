@@ -484,10 +484,59 @@
 
             <div class="divider"></div>
 
-            <fieldset class="checklist"></fieldset>
+            <fieldset id="checklist">
+              <label class="checkbox-wrapper">
+                I read and agree the the
+                <a href="#" target="_blank">Terms and conditions</a> and with
+                the
+                <a href="#" target="_blank">Politic of privace</a>
+                <input
+                  type="checkbox"
+                  name="read-and-agree"
+                  id="read-and-agree"
+                />
+                <span class="checkmark"></span>
+              </label>
+              <label class="checkbox-wrapper">
+                I accecpt to recieve updates and promotions by email
+                <input
+                  type="checkbox"
+                  name="read-and-agree"
+                  id="read-and-agree"
+                />
+                <span class="checkmark"></span>
+              </label>
+              <label class="checkbox-wrapper">
+                I agree to receive updates and promotions via SMS
+
+                <input
+                  type="checkbox"
+                  name="read-and-agree"
+                  id="read-and-agree"
+                />
+                <span class="checkmark"></span>
+              </label>
+            </fieldset>
+
+            <button type="submit" id="ticket-button">
+              <img src="assets/icons/ticket.png" alt="ticket icon" />
+              generate invitation
+            </button>
           </form>
         </div>
       </main>
     </div>
+
+    <script>
+      let input = document.getElementById("choose-file");
+      let fileName = document.getElementById("file-name");
+
+      input.addEventListener("change", () => {
+        let file = document.querySelector("input[type=file]").files[0];
+
+        fileName.innerText = file.fileName;
+        fileName.style.color = "#c8cdd0";
+      });
+    </script>
   </body>
 </html>
