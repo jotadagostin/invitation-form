@@ -20,6 +20,7 @@ aside#brand-content {
   }
   img {
     border-radius: 12px;
+    height: 95.5vh;
   }
   & div#inner-content {
     position: absolute;
